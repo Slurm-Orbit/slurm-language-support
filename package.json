@@ -1,0 +1,39 @@
+{
+  "name": "slurm-language-support",
+  "displayName": "Slurm Language Support",
+  "description": "Language support for slurm file",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "main": "extension.js",
+  "activationEvents": [
+    "onLanguage:shellscript"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "shellscript",
+        "extensions": [".slurm", ".sbatch"]
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "slurm.injection",
+        "path": "./syntaxes/slurm.tmLanguage.json",
+        "injectTo": [
+          "source.shell"
+        ]
+      }
+    ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^2.0.0",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0"
+  }
+}
