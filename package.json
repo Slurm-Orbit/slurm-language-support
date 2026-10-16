@@ -3,6 +3,10 @@
   "displayName": "Slurm Language Support",
   "description": "Language support for slurm file",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/secretqsan/slurm-language-support.git"
+  },
   "engines": {
     "vscode": "^1.120.0"
   },
@@ -29,11 +33,5 @@
         ]
       }
     ]
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@eslint/json": "^2.0.0",
-    "eslint": "^10.4.0",
-    "globals": "^17.6.0"
   }
 }
