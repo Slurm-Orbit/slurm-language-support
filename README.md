@@ -1,6 +1,6 @@
-# Slurm Language Support
+# SLURM Syntax Support
 
-为 [Slurm](https://slurm.schedmd.com/) 作业脚本提供 VS Code / Cursor 支持。`.slurm` 与 `.sbatch` 会作为 Shell 脚本打开，并在其中识别 `#SBATCH`。
+为 [Slurm](https://slurm.schedmd.com/) 作业脚本提供 VS Code 支持。`.slurm` 与 `.sbatch` 会作为 Shell 脚本打开，并在其中识别 `#SBATCH`。
 
 ## 功能
 

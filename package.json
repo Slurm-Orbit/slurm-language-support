@@ -1,9 +1,10 @@
 {
-  "name": "slurm-language-support",
-  "displayName": "Slurm Language Support",
-  "description": "Language support for slurm file",
+  "name": "slurm-syntax-support",
+  "displayName": "SLURM Syntax Support",
+  "description": "Syntax highlighting, completion and diagnostics for slurm scripts",
   "version": "0.0.1",
   "publisher": "secretqsan",
+  "icon": "assets/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/secretqsan/slurm-language-support.git"
