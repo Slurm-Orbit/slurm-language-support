@@ -3,6 +3,7 @@
   "displayName": "Slurm Language Support",
   "description": "Language support for slurm file",
   "version": "0.0.1",
+  "publisher": "secretqsan",
   "repository": {
     "type": "git",
     "url": "https://github.com/secretqsan/slurm-language-support.git"
